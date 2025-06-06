@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Encrypted password storage
+passwords.enc
+secret.key
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# macOS / Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
