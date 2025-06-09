@@ -29,24 +29,6 @@ Technical Implementation:
    - Explicit namespace control
    - Minimal global namespace pollution
 
-Usage Instructions:
------------------------------
-1. Direct Execution:
-   $ python main.py
-
-2. Programmatic Launch (alternative):
-   >>> from gui import launch_app
-   >>> launch_app()
-
-3. Packaging Integration:
-   - Suitable for pyinstaller/pex packaging
-   - Works with setup.py console_scripts
-
-Best Practices:
-- Always execute from project root directory
-- Maintain gui.py in same package
-- Use virtual environment for dependencies
-
 Example:
 -----------------------------
 # From command line:
